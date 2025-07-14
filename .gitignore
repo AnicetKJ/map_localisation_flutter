@@ -1,3 +1,41 @@
+# Fichiers et dossiers à ignorer par Git
+# Empêche de versionner les fichiers temporaires, de build, et les secrets locaux
+
+# Flutter/Dart
+.dart_tool/
+.packages
+.pub/
+build/
+flutter_*.png
+
+# VS Code
+.vscode/
+
+# Systèmes
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Android/iOS
+android/.gradle/
+android/app/build/
+android/local.properties
+ios/Pods/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+
+# Windows/Linux/Mac
+windows/ephemeral/
+linux/ephemeral/
+macos/ephemeral/
+
+# Secrets
+.env
 # Miscellaneous
 *.class
 *.log
